@@ -1,11 +1,11 @@
 import ChildB from "./ChildB";
 
-function ChildA() {
+function ChildA({name}) {
     return (
-        <div className="ChildA">
+        <>
             <h1>ChildA</h1>
-           <ChildB/>
-        </div>
+            <ChildB name={name} />
+        </>
     );
 }
 

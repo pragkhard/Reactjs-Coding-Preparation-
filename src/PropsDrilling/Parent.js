@@ -1,11 +1,12 @@
 import ChildA from "./ChildA";
 
 function Parent() {
+    const name = "Pragati"
     return (
-        <div className="Parent">
+        <>
             <h1>Parent</h1>
-            <ChildA />
-        </div>
+            <ChildA name={name} />
+        </>
     );
 }
 

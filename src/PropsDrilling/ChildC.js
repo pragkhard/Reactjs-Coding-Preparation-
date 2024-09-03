@@ -1,8 +1,8 @@
-function ChildC() {
+function ChildC({name}) {
     return (
-        <div className="ChildC">
-            <h1>ChildC</h1>
-        </div>
+        <>
+            <h1>ChildC - {name}</h1>
+        </>
     );
 }
 

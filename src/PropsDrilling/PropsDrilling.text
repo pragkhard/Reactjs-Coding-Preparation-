@@ -1,0 +1,4 @@
+Props stands for properties
+Props are used to transfer data from one components to another.
+Props are read only
+Props are just like a function in Javascript

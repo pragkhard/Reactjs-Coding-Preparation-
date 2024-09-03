@@ -1,4 +1,19 @@
-Props stands for properties
+Q. Props in reactjs?
+Q. Concept of prop drilling?
+Q. How to avoid it? 
+
+Props stands for properties.
 Props are used to transfer data from one components to another.
-Props are read only
-Props are just like a function in Javascript
+Props are read only.
+Props are just like a function in Javascript.
+Prop drilling in React is the process of passing data from a parent component to a deeply nested child component by passing it through intermediate components.
+
+                                            Parent
+                                              |
+                                            Child A 
+                                              |  
+                                            Child B  
+                                              | 
+                                            Child C  
+
+This can make the code harder to manage because multiple components have to handle the data just to pass it along.

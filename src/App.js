@@ -1,14 +1,9 @@
-import ParentA from './PropsDrilling/ParentA';
-import ParentB from './PropsDrilling/ParentB';
-import ParentC from './PropsDrilling/ParentC';
+import Parent from './PropsDrilling/Parent';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi</h1>
-      <ParentA />
-      <ParentB />
-      <ParentC />
+      <Parent />
     </div>
   );
 }

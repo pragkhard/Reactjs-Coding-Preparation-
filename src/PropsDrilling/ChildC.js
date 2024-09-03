@@ -1,7 +1,7 @@
-function ChildC({name}) {
+function ChildC({ name }) {
     return (
         <>
-            <h1>ChildC - {name}</h1>
+            <h3>ChildC - {name}</h3>
         </>
     );
 }

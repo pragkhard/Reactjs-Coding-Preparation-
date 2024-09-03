@@ -1,9 +1,11 @@
-import Parent from './PropsDrilling/Parent';
+import ParentA from './PropsDrilling/ParentA';
+import ParentB from './ContextAPI/ParentB';
 
 function App() {
   return (
     <div className="App">
-      <Parent />
+      <ParentA />  {/* PropsDrilling */}
+      <ParentB/>
     </div>
   );
 }

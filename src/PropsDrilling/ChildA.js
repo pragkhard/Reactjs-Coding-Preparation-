@@ -1,9 +1,9 @@
 import ChildB from "./ChildB";
 
-function ChildA({name}) {
+function ChildA({ name }) {
     return (
         <>
-            <h1>ChildA</h1>
+            <h3>ChildA</h3>
             <ChildB name={name} />
         </>
     );

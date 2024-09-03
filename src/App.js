@@ -1,4 +1,3 @@
-// import './App.css';
 import ParentA from './PropsDrilling/ParentA';
 import ParentB from './PropsDrilling/ParentB';
 import ParentC from './PropsDrilling/ParentC';

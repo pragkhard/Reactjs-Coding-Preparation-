@@ -1,6 +1,6 @@
 function ChildC() {
     return (
-        <div className="ParentC">
+        <div className="ChildC">
             <h1>ChildC</h1>
         </div>
     );

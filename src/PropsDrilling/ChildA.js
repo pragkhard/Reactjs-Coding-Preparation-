@@ -2,7 +2,7 @@ import ChildB from "./ChildB";
 
 function ChildA() {
     return (
-        <div className="ParentB">
+        <div className="ChildA">
             <h1>ChildA</h1>
            <ChildB/>
         </div>

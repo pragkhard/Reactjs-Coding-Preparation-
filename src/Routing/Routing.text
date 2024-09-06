@@ -1,0 +1,11 @@
+https://reactrouter.com/en/main/start/tutorial
+
+React router is the routing library
+We can make the single page application using router
+
+Installation-
+npm install react-router-dom@6
+
+Connect the URL - first thing we want to connect your app to the browser's URL
+index.js
+Wrap the application to the browser router <BrowserRouter> and import on top
